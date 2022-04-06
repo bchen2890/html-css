@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Image Maps</h2>
+    <p>Click on the wands or flasks</p>
+
+    <!-- Include usemap attribute-->
+    <img src="./assets/pexels-rodnae-productions-7979095.png" alt="Magic Materials" usemap="#magicmap">
+
+    <map name="magicmap">
+        <!--A rectangle requires two coordinates: top left and bottom right corners-->
+        <area alt="Wand1" title="" href="" coords="1,200,355,225" shape="rect">
+        <area alt="Wand2" title="" href="" coords="1,290,342,318" shape="rect">
+        <area alt="Wand3" title="" href="" coords="2,366,343,391" shape="rect">
+        <area alt="Wand4" title="" href="" coords="4,523,375,556" shape="rect">
+        <!--A circle requires the coordinate of the center and the radius of the circle-->
+        <area alt="Black Round-bottom flask" title="" href="" coords="97,42,43" shape="circle">
+        <area alt="Red Round-bottom flask" title="" href="" coords="258,30,72" shape="circle">
+        <!--A polygon can include several coordinate points-->
+        <area alt="Wand5" title="" href=""
+              coords="2,452,65,453,149,468,191,444,343,449,347,468,232,465,210,479,164,495,133,488,75,474,46,473,1,465" shape="poly">
+        <area alt="Tray" title="" href=""
+              coords="399,166,387,152,377,137,356,120,352,88,346,64,354,41,367,13,381,-1,396,0,396,153" shape="poly">
+    </map>
+</body>
+</html>
+
