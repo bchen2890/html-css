@@ -3,13 +3,36 @@
 <head>
     <meta charset="utf-8">
     <title>Home</title>
+    <style>
+        nav a:link, nav a:visited {
+            text-decoration: none;
+            background-color: lightseagreen;
+            border: 1px solid cornflowerblue;
+            display: block;
+            width: 20vw;
+            text-align: center;
+            margin-bottom: 1vh;
+            color: floralwhite
+        }
+
+        nav a:hover, a:active {
+            background-color: aquamarine;
+            color: lightseagreen;
+        }
+
+        navbar nav:nth-child(2n+1) {
+            font-size: 20px
+        }
+    </style>
 </head>
 <body>
     <header>
         Learning HTML & CSS
-        <nav><a href="">Tutorials</a></nav>
-        <nav>Option 2</nav>
-
+        <navbar>
+            <nav><a href="">Tutorials</a></nav>
+            <nav><a href="">Others</a></nav>
+        </navbar>
+      
     </header>
     <hr />
     <h1>Learning with examples</h1>
@@ -24,9 +47,10 @@
             <li><a href="table.html">Tables</a></li>
             <li><a href="imagemap.html">Image map</a></li>
             <li><a href="list.html">Lists</a></li>
-            <li><a href="css.html">CSS</a></li>
             <li><a href="class.html">Class</a></li>
             <li><a href="computercode.html">Computer code</a></li>
+            <li><a href="basicCss.html">Basic CSS</a></li>
+            <li><a href="cssCascade.html">CSS Cascade</a></li>
 
         </ol>
     </section>

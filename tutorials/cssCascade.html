@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        section {
+            background-color: lightgoldenrodyellow;
+            color: orangered;
+        }
+        p {
+            color:hotpink
+        }
+        .fontStyle {
+            font-size: 20px;
+            font-style:italic;
+        }
+        div {
+            background-color: lightcoral;
+        } 
+        .blueBack{
+            background-color: cornflowerblue;
+        }
+        span{
+            background-color: orangered !important;
+            display: block;
+        }
+        #violet{
+            background-color: blueviolet
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Inheritance</h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec condimentum tortor. Sed dolor leo, dictum et ullamcorper condimentum, molestie ac nibh. Nam facilisis ligula nec elit sollicitudin, quis hendrerit elit dictum. Mauris vulputate lacus at dapibus mattis. Proin a nibh in ipsum dictum viverra quis eu neque. Integer id iaculis ipsum. Praesent ac cursus turpis.
+
+        <p style="color:blue;">
+            Sed faucibus fringilla sem a condimentum. Nam ornare, sem id fringilla tristique, dolor quam eleifend ligula, ut tristique magna leo nec justo.
+        </p>
+    </section>
+    <p class="fontStyle">Merge color & font-style</p>
+    <h2>specificity value</h2>
+    <ul>
+        <li>Inline styles * 1000</li>
+        <li>IDs * 100</li>
+        <li>Classes, pseudo-classes, attribute selectors * 10</li>
+        <li>Elements and pseudo-elements * 1</li>
+        <li><code>!important</code> will override all styles</li>
+    </ul>
+    <div>element</div>
+    <div style="background-color:greenyellow;">element or inline -> inline</div>
+    <div class="blueBack">element or class -> class</div>
+    <div class="blueBack" style="background-color:greenyellow;">element or inline or class -> inline</div>
+    <div class="blueBack" style="background-color:greenyellow;">element or inline or class -> inline</div>
+    <span class="blueBack" style="background-color:greenyellow;"> class or inline or important -> important</span>
+    <div class="blueBack" id="violet">element or id or class -> id</div>
+</body>
+</html>
+
