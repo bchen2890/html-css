@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: lightgoldenrodyellow;
+        }
+
+        pRed {
+            color: red;
+            display: block;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        span {
+            color: mediumpurple
+        }
+        .green {
+            color: limegreen
+        }
+        #orange{
+            color:orange
+        }
+        div, .group {
+            color: cyan
+        }
+        p.green{
+            color: lightseagreen
+        }
+        article > span{
+            color: darkgrey
+        }
+        article p{
+            color: black
+        }
+
+        nav a:link, nav a:visited {
+            text-decoration: none;
+            background-color: lightseagreen;
+            border: 1px solid cornflowerblue;
+            display: block;
+            width: 20vw;
+            text-align: center;
+            margin-bottom: 1vh;
+            color: floralwhite
+        }
+
+        nav a:hover, a:active {
+            background-color: aquamarine;
+            color: lightseagreen;
+            cursor: crosshair
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p style="color:blue;">Inline CSS</p>
+    <pRed>Internal CSS</pRed>
+    <pPink>External CSS</pPink>
+    <span> Element selector</span>
+    <p class="green"> Class selector</p>
+    <p id="orange"> Id selector</p>
+    <p class="group"> Grouping selector</p>
+    <div> Grouping selector</div>
+    <p class="green">Element with Class selector</p>
+    <article>
+        <span> Child selector</span>
+    </article>
+    <article>
+        <div> <p> Descendant selector</p></div>
+    </article>
+    <nav><a href="">Pseudo-class selector</a></nav>
+</body>
+</html>
+
