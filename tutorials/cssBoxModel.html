@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .withBorder {
+            border: 15px solid orange;
+            text-align: center;
+            background-color: lightyellow;
+            width: 200px;
+        }
+        .withPadding {
+            text-align: center;
+            background-color: lightyellow;
+            width: 200px;
+            padding: 15px;
+        }
+        .withMargin {
+            text-align: center;
+            background-color: lightyellow;
+            width: 200px;
+            padding: 15px;
+            margin: 15px;
+        }
+        .borderBox {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <div>context with default style</div>
+    <br />
+    <div class="withBorder">context with 15px border</div>
+    <div class="withPadding">context with 15px padding</div>
+    <div class="withPadding withBorder">context with 15px border & padding</div>
+    <div class="withPadding withBorder withMargin">context with 15px border & padding & margin</div>
+    <div class="withPadding withBorder">context with the box-sizing of content-box. Width = 200px + 15px*2(padding) + 15px*2(border) = 260px </div>
+    <div class="withPadding withBorder borderBox">context with the box-sizing of border-box. Width = 140px + + 15px*2(padding) + 15px*2(border) = 200px </div>
+</body>
+</html>
+
+

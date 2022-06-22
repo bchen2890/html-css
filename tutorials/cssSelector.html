@@ -2,6 +2,9 @@
 <html>
 <head>
     <style>
+        * {
+            font-family:'Bernard MT'
+        }
         body {
             background-color: lightgoldenrodyellow;
         }
@@ -15,7 +18,8 @@
             margin-right: 0;
         }
         span {
-            color: mediumpurple
+            color: mediumpurple;
+            font-family: 'Times New Roman';
         }
         .green {
             color: limegreen
@@ -33,7 +37,7 @@
             color: darkgrey
         }
         article p{
-            color: black
+            color: purple
         }
 
         nav a:link, nav a:visited {
@@ -56,14 +60,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <default>Universal selector starts all with "font-family:'Bernard MT'"</default>
+
     <p style="color:blue;">Inline CSS</p>
     <pRed>Internal CSS</pRed>
     <pPink>External CSS</pPink>
     <span> Element selector</span>
     <p class="green"> Class selector</p>
     <p id="orange"> Id selector</p>
-    <p class="group"> Grouping selector</p>
-    <div> Grouping selector</div>
+    <p class="group"> Grouping selector for class</p>
+    <div> Grouping selector for element</div>
     <p class="green">Element with Class selector</p>
     <article>
         <span> Child selector</span>
