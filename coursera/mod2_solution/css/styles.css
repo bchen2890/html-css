@@ -4,6 +4,7 @@
 }
 body{
     margin:0;
+    background-color:lightyellow;
 }
 .row {
     clear: both;
@@ -66,9 +67,13 @@ h1 {
     /* For mobile phones: */
     .col-md {
         width: 45%;
+        margin-left: 3.2%;
+        margin-bottom: 2.5%;
     }
     .col-md-12 {
-        width: 92.5%;
+        width: 93.2%;
+        margin-left: 3.2%;
+        margin-bottom: 2.5%;
     }
 }
 
