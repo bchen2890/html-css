@@ -1,0 +1,84 @@
+*{
+    font-family:'Modern No. 20';
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+}
+.row {
+    clear: both;
+    display: block;
+}
+.col-lg {
+    float: left;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    width: 30%;
+    padding: 1.2%;
+}
+.box {
+    border: 1px solid grey;
+    position: relative;
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.title {
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    margin-top: 0;
+    padding-left: 18%;
+    padding-right: 18%;
+    font-size: 1.25em;
+}
+
+.pink{
+    background-color:hotpink;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.coral{
+    background-color: coral;
+}
+
+p{
+    text-align:justify;
+}
+
+h1 {
+    color: coral;
+    text-align: center;
+    font-size:1.75em;
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width: 992px) {
+    /* For mobile phones: */
+    .col-md {
+        width: 45%;
+    }
+    .col-md-12 {
+        width: 92.5%;
+    }
+}
+
+@media only screen and (max-width: 767.5px) {
+    /* For mobile phones: */
+    .col-sm {
+        margin-left: 8%;
+        margin-right: 7%;
+        width: 85%;
+        padding: 3.2%;
+    }
+}
+
