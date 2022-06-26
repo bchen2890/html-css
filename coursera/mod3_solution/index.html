@@ -8,28 +8,59 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-
-    <h1>Hello Coursera!</h1>
-
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Food</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+<body class="bg-warning">
+    <nav class="navbar bg-danger p-0">
+        <div class="container-fluid p-0">
+            <a class="navbar-brand ms-3 my-2 fw-bold text-light" href="#">Food, LLC</a>
+            <button class="navbar-toggler d-sm-none me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-light"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-sm-none">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-center bg-warning border border-danger text-light" href="#chicken-sec">Chicken</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link text-center bg-warning border border-danger text-light" href="#beef-sec">Beef</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center bg-warning border border-danger text-light" href="#sushi-sec">Sushi</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <h1 class="text-center m-3 text-light">Our Menu</h1>
+    <section class="row m-md-4 m-sm-4 m-5" id="chicken-sec">
+        <div class="col-12 bg-danger text-light pt-1 pb-2" id="large-text">
+            <h2 class="text-center fs-4">Chicken</h2>
+            <span class="fs-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut consectetur lorem. Praesent ut commodo nulla, aliquam lobortis felis. Morbi efficitur ornare lacus sed rhoncus. Quisque lectus justo, tempus sit amet velit in, facilisis imperdiet sem. Donec ut accumsan arcu. Maecenas commodo accumsan diam iaculis malesuada. Suspendisse ullamcorper efficitur tempor. Suspendisse aliquam dui et purus placerat iaculis. Ut sem nisl, convallis vel tempor id, eleifend a purus. Nullam vestibulum dui quis magna tristique vulputate eget eget lacus. Donec eros magna, euismod eu purus vitae, eleifend ornare enim. Nullam gravida ligula nec diam sodales posuere. Nulla luctus varius lectus, sed lobortis ex lacinia quis. Phasellus at purus sit amet tellus fringilla scelerisque fringilla sed libero. Maecenas quis efficitur libero, ac dapibus augue.
+
+                Curabitur dui elit, bibendum et placerat quis, tempor vel ante. Morbi ac ante consequat, mattis ipsum vitae, faucibus eros. Nulla hendrerit nisi sed enim tristique volutpat. Mauris fermentum leo ac eros suscipit interdum vitae sit amet turpis. Quisque in aliquet lorem. Nulla facilisi. Sed magna ipsum, vestibulum id massa condimentum, varius pretium turpis. Donec ac tempus lacus. Sed hendrerit consectetur metus, vitae lacinia orci tempus non.
+            </span>
+        </div>
+    </section>
+    <section class="row m-md-4 m-sm-4 m-5" id="beef-sec">
+        <div class="col-12 bg-danger text-light pt-1 pb-2" id="large-text">
+            <h2 class="text-center fs-4">Beef</h2>
+            <span class="fs-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut consectetur lorem. Praesent ut commodo nulla, aliquam lobortis felis. Morbi efficitur ornare lacus sed rhoncus. Quisque lectus justo, tempus sit amet velit in, facilisis imperdiet sem. Donec ut accumsan arcu. Maecenas commodo accumsan diam iaculis malesuada. Suspendisse ullamcorper efficitur tempor. Suspendisse aliquam dui et purus placerat iaculis. Ut sem nisl, convallis vel tempor id, eleifend a purus. Nullam vestibulum dui quis magna tristique vulputate eget eget lacus. Donec eros magna, euismod eu purus vitae, eleifend ornare enim. Nullam gravida ligula nec diam sodales posuere. Nulla luctus varius lectus, sed lobortis ex lacinia quis. Phasellus at purus sit amet tellus fringilla scelerisque fringilla sed libero. Maecenas quis efficitur libero, ac dapibus augue.
+
+                Curabitur dui elit, bibendum et placerat quis, tempor vel ante. Morbi ac ante consequat, mattis ipsum vitae, faucibus eros. Nulla hendrerit nisi sed enim tristique volutpat. Mauris fermentum leo ac eros suscipit interdum vitae sit amet turpis. Quisque in aliquet lorem. Nulla facilisi. Sed magna ipsum, vestibulum id massa condimentum, varius pretium turpis. Donec ac tempus lacus. Sed hendrerit consectetur metus, vitae lacinia orci tempus non.
+            </span>
+        </div>
+    </section>
+    <section class="row m-md-4 m-sm-4 m-5" id="sushi-sec">
+        <div class="col-12 bg-danger text-light pt-1 pb-2" id="large-text">
+            <h2 class="text-center fs-4">Sushi</h2>
+            <span class="fs-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut consectetur lorem. Praesent ut commodo nulla, aliquam lobortis felis. Morbi efficitur ornare lacus sed rhoncus. Quisque lectus justo, tempus sit amet velit in, facilisis imperdiet sem. Donec ut accumsan arcu. Maecenas commodo accumsan diam iaculis malesuada. Suspendisse ullamcorper efficitur tempor. Suspendisse aliquam dui et purus placerat iaculis. Ut sem nisl, convallis vel tempor id, eleifend a purus. Nullam vestibulum dui quis magna tristique vulputate eget eget lacus. Donec eros magna, euismod eu purus vitae, eleifend ornare enim. Nullam gravida ligula nec diam sodales posuere. Nulla luctus varius lectus, sed lobortis ex lacinia quis. Phasellus at purus sit amet tellus fringilla scelerisque fringilla sed libero. Maecenas quis efficitur libero, ac dapibus augue.
+
+                Curabitur dui elit, bibendum et placerat quis, tempor vel ante. Morbi ac ante consequat, mattis ipsum vitae, faucibus eros. Nulla hendrerit nisi sed enim tristique volutpat. Mauris fermentum leo ac eros suscipit interdum vitae sit amet turpis. Quisque in aliquet lorem. Nulla facilisi. Sed magna ipsum, vestibulum id massa condimentum, varius pretium turpis. Donec ac tempus lacus. Sed hendrerit consectetur metus, vitae lacinia orci tempus non.
+            </span>
+        </div>
+    </section>
     <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
