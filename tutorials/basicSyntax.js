@@ -1,15 +1,15 @@
-
+console.log("-----BasicSyntax-----")
 //variable can hold different type during the execution
 var x = "hello";
-console.log(x);
+console.log("variable x=",x);
 x = 23;
-console.log(x);
+console.log("variable x=", x);
 x = { key: "value" }
-console.log(x);
+console.log("variable x=", x);
 
 //functions declaration
 function f1(x) {
-    console.log(x);
+    console.log("function1 -->", x);
 }
 
 var f2 = function (x,y) {
@@ -17,16 +17,18 @@ var f2 = function (x,y) {
 }
 
 //arguments are optional. These are all legal syntax
+console.log("function1 without arguments");
 f1();
+console.log("function2 without arguments");
 f2();
 f1(1);
 f1("hello");
 var sum = f2(2, 3);
-console.log(sum);
+console.log("function2","(",2,",",3,")"," -->", sum);
 sum = f2(4, "hello");
-console.log(sum);
+console.log("function2", "(", 4, ",", "hello", ")", " -->", sum);
 sum = f2("hello", "world");
-console.log(sum);
+console.log("function2", "(hello, world)", " -->", sum);
 
 //primitive types
 var type;
@@ -50,6 +52,9 @@ type = 6987009211850991n;
     //object
 type = {}
 type = { key: "value" }
-console.log(type);
-console.log(type.key);
+type["another key"] = "hello world";
+console.log("Object type:",type);
+console.log("type.key:",type.key);
+console.log("type['another key']",type["another key"]);
+
 
