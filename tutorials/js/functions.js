@@ -41,3 +41,19 @@ var object = { x: 0 };
 console.log("Before function", object);
 changeObject(object);
 console.log("After function", object);
+
+//Function constructor
+function Animal(type, name) {
+    this.type = type;
+    this.name = name;
+}
+
+Animal.prototype.getType = function () {
+    return this.name + " is a " + this.type;
+};
+
+var kitty = new Animal('cat', 'Kitty');
+console.log(kitty.getType());
+
+var buddy = new Animal('dog', 'Buddy');
+console.log(buddy.getType());
