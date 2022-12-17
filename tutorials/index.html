@@ -1,67 +1,60 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Home</title>
-    <style>
-        nav a:link, nav a:visited {
-            text-decoration: none;
-            background-color: lightseagreen;
-            border: 1px solid cornflowerblue;
-            display: block;
-            width: 20vw;
-            text-align: center;
-            margin-bottom: 1vh;
-            color: floralwhite
-        }
-
-        nav a:hover, a:active {
-            background-color: aquamarine;
-            color: lightseagreen;
-        }
-
-        navbar nav:nth-child(2n+1) {
-            font-size: 20px
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <header>
-        Learning HTML & CSS
+        <h1>Learning HTML & CSS</h1>
         <navbar>
-            <nav><a href="">Tutorials</a></nav>
-            <nav><a href="">Others</a></nav>
+            <nav>
+                <a href="">Home</a>
+                <a href="">HTML</a>
+                <a href="">CSS</a>
+                <a href="">Javascript</a>
+            </nav>
         </navbar>
-      
     </header>
     <hr />
-    <h1>Learning with examples</h1>
-    <section>
-        <ol>
-            <li><a href="first.html">First page</a></li>
-            <li><a href="styled.html">Some tyles</a></li>
-            <li><a href="formatting.html">Formatting text</a></li>
-            <li><a href="quotation.html">Quotes</a></li>
-            <li><a href="color.html">Colors</a></li>
-            <li><a href="link.html">Links</a></li>
-            <li><a href="table.html">Tables</a></li>
-            <li><a href="imagemap.html">Image map</a></li>
-            <li><a href="list.html">Lists</a></li>
-            <li><a href="class.html">Class</a></li>
-            <li><a href="computercode.html">Computer code</a></li>
-            <li><a href="cssSelector.html">CSS Selectors</a></li>
-            <li><a href="cssCascade.html">CSS Cascade</a></li>
-            <li><a href="cssBoxModel.html">CSS Box Model</a></li>
-            <li><a href="cssMargin.html">CSS Margin</a></li>
-            <li><a href="cssBackground.html">CSS Background</a></li>
-            <li><a href="floatingElements.html">CSS Floating Elements</a></li>
-            <li><a href="cssMediaQuery.html">CSS Media Query</a></li>
 
-        </ol>
-    </section>
-
-    <footer>
-        contact: bchen2890
-    </footer>
+    <div class="container">
+        <div class="clearfix"></div>
+        <section class="content">
+        <h2>Learning with examples</h2>
+            <ol>
+                <li><a href="first.html">First page</a></li>
+                <li><a href="styled.html">Some tyles</a></li>
+                <li><a href="formatting.html">Formatting text</a></li>
+                <li><a href="quotation.html">Quotes</a></li>
+                <li><a href="color.html">Colors</a></li>
+                <li><a href="link.html">Links</a></li>
+                <li><a href="table.html">Tables</a></li>
+                <li><a href="imagemap.html">Image map</a></li>
+                <li><a href="list.html">Lists</a></li>
+                <li><a href="class.html">Class</a></li>
+                <li><a href="computercode.html">Computer code</a></li>
+                <li><a href="cssSelector.html">CSS Selectors</a></li>
+                <li><a href="cssCascade.html">CSS Cascade</a></li>
+                <li><a href="cssBoxModel.html">CSS Box Model</a></li>
+                <li><a href="cssMargin.html">CSS Margin</a></li>
+                <li><a href="cssBackground.html">CSS Background</a></li>
+                <li><a href="floatingElements.html">CSS Floating Elements</a></li>
+                <li><a href="cssMediaQuery.html">CSS Media Query</a></li>
+            </ol>
+        </section>
+        <aside>
+            <h2>Sidebar</h2>
+        </aside>
+        <div class="clearfix"></div>
+        <footer>
+            Contact: bchen2890
+        </footer>
+    </div>
+    
 </body>
+
 </html>
