@@ -1,8 +1,17 @@
+
+@font-face {
+    font-family: 'Babylon'; 
+    src: url('fonts/Babylon.ttf'); 
+    src: url('fonts/Babylon.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Babylon';
 }
 
 body{
@@ -20,7 +29,6 @@ body{
 }
 
 #header #logo{
-    width: 100px;
     margin: 0px auto;
     padding-top: 20px;
 }
@@ -35,7 +43,21 @@ body{
 #header h1{
     text-align: center;
     font-size: 40px;
+
 }
+
+#header a:hover{
+    text-shadow: 0px 2px 1px  rgba(47, 56, 93, 0.564), 0px 0px 7px rgba(99, 189, 180, 0.564);
+}
+
 #header h1 a{
     color: rgb(22, 65, 98);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    text-shadow: 0px 2px 1px rgba(47, 56, 93, 0.564);
+    transition: all 300ms;
 }
+
+
+
