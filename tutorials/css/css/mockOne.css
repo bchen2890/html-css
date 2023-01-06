@@ -96,6 +96,10 @@ nav > ul > li > a:first-child{
     border-left: 1px solid rgb(53, 88, 104);
 }
 
+nav a:visited{
+    color: rgb(253, 253, 253);
+}
+
 nav > ul > li:hover{
     background-color: rgba(83, 129, 198);
     box-shadow: 0px 0px 4px rgb(22, 46, 98);
@@ -148,7 +152,6 @@ aside{
     background-color: rgb(233, 239, 249);
     border: 1px solid rgb(204, 204, 204);
     box-shadow: 0px 2px 2px rgb(204, 204, 204);
-    clear: both;
 }
 
 .widget{
@@ -276,5 +279,45 @@ aside li{
     width: 164px;
     clear: both;
     padding: 18px;
+    font-size: 14px;
+    color: rgb(22, 46, 98);
+}
+
+/*Sections*/
+section{
+    float: right;
+    width: 70%;
+    margin-right: 20px;
+    margin-top: 40px;
+    background-color:rgb(227, 238, 253);
+    padding: 20px;
+    border: 1px solid rgb(57, 90, 162);
+    box-shadow: 0px 0px 4px rgba(47, 56, 93, 0.564);
+    color: rgb(22, 46, 98);
+    font-size: 16px;
+    overflow: hidden;
+}
+
+section h2{
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(22, 46, 98);
+}
+
+section a{
+    font-weight: bold;
+}
+section article{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section .date{
+    color: rgb(57, 90, 162);
     font-size: 14px;
 }
