@@ -154,6 +154,12 @@ aside{
     box-shadow: 0px 2px 2px rgb(204, 204, 204);
 }
 
+.aside{
+    float: left;
+    clear: left;
+    max-width: 20%;
+}
+
 .widget{
     display: block;
     width: 180px;
@@ -277,18 +283,22 @@ aside li{
 
 #sentence{
     width: 164px;
-    clear: both;
+    clear: left;
     padding: 18px;
     font-size: 14px;
     color: rgb(22, 46, 98);
 }
 
 /*Sections*/
-section{
+.content{
+    clear: right;
     float: right;
-    width: 70%;
+    width: 75%;
+}
+
+section{
     margin-right: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
     background-color:rgb(227, 238, 253);
     padding: 20px;
     border: 1px solid rgb(57, 90, 162);
@@ -320,4 +330,18 @@ section article{
 section .date{
     color: rgb(57, 90, 162);
     font-size: 14px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+footer{
+    margin-top: 30px;
+    clear: both;
+    width: 100%;
+    background-color:rgb(233, 239, 249);
+    text-align: center;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 4px rgb(57, 90, 162);
 }
