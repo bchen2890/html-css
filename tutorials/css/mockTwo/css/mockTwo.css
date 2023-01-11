@@ -12,7 +12,7 @@ body{
 }
 
 .wrap{
-    width: 1200px;
+    width: 1000px;
     margin: 0px auto;
 }
 
@@ -87,4 +87,23 @@ nav ul li a{
 nav ul li a:hover{
     color: mediumslateblue;
     transform: scale(1.2, 1.2);
+}
+
+#banner{
+    height: 80px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 2px gray;
+    background: linear-gradient(90deg, rgba(92,1,138,1) 0%, rgba(138,19,177,1) 32%, rgba(172,2,180,1) 100%);
+    margin: 20px auto;
+}
+
+#banner h1{
+    display: block;
+    width: 515px;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin: 20px auto;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px;
 }
