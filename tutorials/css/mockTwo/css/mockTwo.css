@@ -315,3 +315,77 @@ aside .box{
     box-shadow: 0px 0px 3px rgb(166, 155, 172);
     transition: all 300ms;
 }
+
+#articles{
+    width: 750px;
+    margin: 0px 29px;
+    float: left;
+}
+
+#articles h2{
+    display: block;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    background-color: rgb(208, 150, 231);
+    box-shadow: 0px 1px 0px rgba(47, 56, 93, 0.564), 1px 2px 0px rgba(47, 56, 93, 0.564), 
+    2px 3px 0px rgba(47, 56, 93, 0.564), 3px 4px 0px rgba(47, 56, 93, 0.564);
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.clear-fix{
+    float: none;
+    clear: both;
+}
+
+#articles article{
+    height: auto;
+    border: 1px solid  rgba(142, 122, 148, 0.888);
+    margin: 40px auto;
+    padding: 10px;
+    background-color:rgb(245, 236, 251);
+    box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.567);
+}
+
+#articles h4{
+    display: block;
+    font-size: 23px;
+    margin: 3px;
+}
+
+#articles h4 a{
+    text-decoration: none;
+    color: mediumslateblue;
+}
+
+#articles h4 a:hover{
+    text-decoration: underline;
+}
+
+#articles .data{
+    float: right;
+    background-color:  mediumslateblue;
+    height: 30px;
+    line-height: 30px;
+    margin: -10px;
+    padding: 4px;
+    font-size: 13px;
+    border-radius: 0px 0px 0px 5px;
+}
+
+#articles .data span{
+    color: white;
+    margin: 6px;
+}
+
+#articles article p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
