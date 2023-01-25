@@ -29,3 +29,239 @@
         font-size: 32px;
     }
 }
+
+@media (max-width: 1080px) {
+    #articles{
+        width: 58%;
+    }
+    .card .category{
+        font-size: 17px;
+    }
+    .card .description{
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 830px) {
+    aside{
+        margin-right: -28px;
+    }
+    aside h3{
+        font-size: 25px;
+    }
+    .card .icon {
+        font-size: 60px;
+    }
+    #articles{
+        width: 50%;
+    }
+    #articles h2{
+        height: 70px;
+        font-size: 35px;
+        line-height: 72px;
+    }
+    footer h5{
+        font-size: 24px;
+    }
+    footer ul{
+        font-size: 22px;
+    }
+    footer li{
+        padding: 3px;
+    }
+    footer ul li a{
+        height: 30px;
+    }
+    footer iframe{
+        height: 180px;
+    }
+}
+
+@media (max-width: 740px) {
+    #header{
+        width: 100%;
+        height: 120px;
+        padding-top: 10px;
+    }
+    #header h1{
+        font-size: 34px;
+    }
+    #nav{
+        clear: both;
+        float: none;
+        width: 430px;
+        margin: 0px auto;
+    }
+    #header #logo{
+        float: none;
+        width: 200px;
+        margin: 0px auto;
+        margin-top: 15px;
+    }
+    #banner h1{
+        font-size: 26px;
+        margin: 4% auto;
+        width: auto;
+    }
+    .card{
+        height: auto;
+    }
+    .card .icon{
+        height: auto;
+    }
+    .card .description{
+        display: none;
+    }
+    aside{
+        width: 100%;
+        float: unset;
+        min-height: unset;
+    }
+    #articles{
+        margin-top: 20px;
+        width: 92%;
+    }
+    aside input[type="text"]{
+        width: 93%;
+    }
+
+    .login [type="email"], [type="password"] {
+        width: 82%;
+    }
+    #user-label, #password-label {
+        margin-left: 5%;
+    }
+    .login input[type="submit"], .login input[type="reset"] {
+        margin-left: 23%;
+    }
+    .login a{
+        margin-left: 25%;
+    }
+    .twitter, .youtube, .facebook {
+        width: 260px;
+    }
+}
+
+@media (max-width: 630px) {
+    #banner h1{
+        margin: 5% auto;
+    }
+    aside input[type="text"]{
+        width: 91.5%;
+    }
+    .login input[type="submit"], .login input[type="reset"] {
+        margin-left: 21%;
+    }
+    .login a{
+        margin-left: 23%;
+    }
+    footer{
+        height: auto;
+    }
+    footer .wrap > div {
+        width: 90%;
+        margin: 7%;
+        height: auto;
+    }
+    footer iframe{
+        height: 70vw;
+    }
+}
+
+@media (max-width: 600px) {
+    aside input[type="text"]{
+        width: 91.2%;
+    }
+}
+
+@media (max-width: 570px) {
+    aside input[type="text"]{
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    aside input[type="text"]{
+        width: 89%;
+    }
+    #random a{
+        font-size: 35px;
+    }
+    .login input[type="submit"], .login input[type="reset"] {
+        margin-left: 16%;
+    }
+    .login a{
+        margin-left: 19%;
+    }
+}
+
+@media (max-width: 450px) {
+    aside input[type="text"]{
+        width: 87%;
+    }
+    #banner h1{
+        font-size: 22px;
+        margin: 7% auto;
+    }
+    #articles{
+        width: 87%;
+    }
+    #nav{
+        width: 400px;
+    }
+    #nav ul li{
+        font-size: 20px;
+    }
+    #articles h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 280px) {
+    aside input[type="text"]{
+        width: 87%;
+    }
+    #banner h1 {
+        font-size: 23px;
+        line-height: 29px;
+        margin: 5% auto;
+    }
+    #articles{
+        width: 81%;
+    }
+    #nav ul li {
+        font-size: 15px;
+        margin: 0px 0px 0px 16px;
+    }
+    .card {
+        width: 90%;
+        height: auto;
+        margin: 5%;
+    }
+    .card .icon{
+        line-height: 100px;
+    }
+    aside input[type="text"] {
+        width: 82%;
+    }
+    .login [type="email"], [type="password"] {
+        width: 72%;
+    }
+    .login input[type="submit"], .login input[type="reset"] {
+        margin: auto 2.6%;
+        margin-bottom: 7%;
+    }
+    .login a {
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    .twitter, .youtube, .facebook {
+        width: 80%;
+    }
+    #articles h4 {
+        clear: both;
+        margin-top: 40px;
+    }
+}
