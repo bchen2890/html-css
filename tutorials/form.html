@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+form{
+    padding: 30px;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+input:focus-visible{
+    outline: 2px solid turquoise;
+}
+input[type="submit"] {
+  background-color: teal;
+  color: white;
+  margin-top: 16px;
+}
+
+.container {
+  background-color: whitesmoke;
+  padding: 20px;
+  width: 50vw;
+  margin: 10% auto;
+}
+
+#message {
+  display:none;
+  font-size: 12px;
+  color: red;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+    <form id="loginForm">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <p id="message">This field is required</p>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<script>
+let errorEnable = false;
+var myInput = document.getElementById("password");
+var form = document.getElementById("loginForm");
+
+form.onsubmit = function submit(event) {
+    event.preventDefault();
+    errorEnable = true;
+}
+
+myInput.onkeyup = function(){
+    if(myInput.value.length==0 && errorEnable){
+        document.getElementById("message").style.display = "block";
+    } else {
+        document.getElementById("message").style.display = "none";
+    }
+};
+
+</script>
+
+</body>
+</html>
