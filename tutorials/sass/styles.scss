@@ -1,0 +1,35 @@
+$common-font: sans-serif, Helvetica, Arial;
+$background-color: #008080;
+$font-color: white;
+$font-secondary-color: rgb(228, 238, 254);
+$border-color: #004f4f;
+
+*{
+    color: $font-color;
+}
+body{
+    background-color: $background-color;
+}
+
+h1{
+    font-family: $common-font;
+}
+
+.box{
+    border: 2px solid $border-color;
+    width: 500px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px;
+    h1{
+        color: $font-secondary-color
+    }
+    p{
+        font-size: 10px;
+    }
+    .date{
+        font-size: 11px;
+        background-color: #115262;
+        width: 100%;
+    }
+}

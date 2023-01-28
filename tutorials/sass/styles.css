@@ -1,0 +1,32 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: #008080;
+}
+
+h1 {
+  font-family: sans-serif, Helvetica, Arial;
+}
+
+.box {
+  border: 2px solid #004f4f;
+  width: 500px;
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px;
+}
+.box h1 {
+  color: rgb(228, 238, 254);
+}
+.box p {
+  font-size: 10px;
+}
+.box .date {
+  font-size: 11px;
+  background-color: #115262;
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
