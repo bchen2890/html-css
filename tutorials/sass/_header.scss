@@ -1,0 +1,13 @@
+@import 'variables';
+
+*{
+    color: $font-color;
+}
+body{
+    background-color: $background-color;
+}
+
+h1{
+    font-family: $common-font;
+}
+
