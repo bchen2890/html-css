@@ -1,9 +1,13 @@
 @import 'variables';
 
-@mixin tealBorder($size){
+@mixin tealBorder($size, $circle: false){
     border: $size solid $border-color;
-    border-radius: 10px;
     box-shadow: 0px 0px 4px lightseagreen;
+    @if $circle{
+        border-radius: 5px;
+    } @else{
+        border-radius: 0px;
+    }
 }
 
 
@@ -33,7 +37,6 @@
     padding: 10px;
     width: 90%;
     margin: 20px auto;
-    border-radius: 5px;
 }
 
 .alert-warning{
@@ -43,4 +46,22 @@
     border-color: orange;
 }
 
+.alert-teal{
+    @extend %alert;
+    @include tealBorder(5px, true);
+    background-color: rgb(173, 226, 230);
+    color: rgb(0, 97, 92);
+}
+
+$base-color: teal;
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+@for $i from 1 through 6 {
+  ul li:nth-child(#{$i}) {
+    background-color: lighten($base-color, $i * 2%);
+  }
+}
 
