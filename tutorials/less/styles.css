@@ -1,0 +1,66 @@
+body {
+  background: #008080;
+}
+.box .date {
+  font-size: 11px;
+  background-color: #115262;
+  width: 100%;
+}
+.box {
+  border: 3px solid #004f4f;
+  box-shadow: 0px 0px 4px lightseagreen;
+  width: 500px / 1920px * 100%;
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px;
+}
+.box h1 {
+  color: #e4eefe;
+}
+.box p {
+  font-size: 10px;
+}
+.alert,
+.alert-warning,
+.alert-teal {
+  border: 1px solid red;
+  background-color: lightpink;
+  color: red;
+  padding: 10px;
+  width: 90%;
+  margin: 20px auto;
+}
+.alert-warning {
+  background-color: wheat;
+  color: orange;
+  border-color: orange;
+}
+.alert-teal {
+  border: 5px solid #004f4f;
+  box-shadow: 0px 0px 4px lightseagreen;
+  border-radius: 5px;
+  background-color: #ade2e6;
+  color: #00615c;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+}
+ul li:nth-child(1) {
+  background-color: #008a8a;
+}
+ul li:nth-child(2) {
+  background-color: #009494;
+}
+ul li:nth-child(3) {
+  background-color: #009f9f;
+}
+ul li:nth-child(4) {
+  background-color: #00a9a9;
+}
+ul li:nth-child(5) {
+  background-color: #00b3b3;
+}
+ul li:nth-child(6) {
+  background-color: #00bdbd;
+}
